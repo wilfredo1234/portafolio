@@ -1,0 +1,18 @@
+/* ==========================================
+   TYPOGRAPHY & ARCADE ACCENTS
+   ========================================== */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+:root {
+    --font-arcade: 'Silkscreen', monospace;
+}
+
+.section-header__tag,
+.stack-card__label,
+.project-card__code,
+.project-card__type,
+.tags__item {
+    font-family: var(--font-arcade);
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+}
